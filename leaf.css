@@ -76,7 +76,7 @@ h1#demo {
 	margin-left: 220px;
     
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 550px) {
     #inputYear{
         display: block;
         margin: auto;
