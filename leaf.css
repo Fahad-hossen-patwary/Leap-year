@@ -53,6 +53,7 @@ h1#demo {
     /* margin-left: 5px; */
     color: #00fdce;
     text-shadow: 4px 4px #0e580e;
+    float: right;
 }
 
 .errorMsg {
@@ -88,11 +89,14 @@ h1#demo {
     .contentWrapper{
         display: block;
         margin-top: 40px;
-        margin-left: 39px;
+        /* margin-left: 39px; */
+        width: 100%;
+        overflow: hidden;
     }
     #defultText{
         margin: auto;
         width: 300px;
+        float: left;
     }
     #demo{
         margin:auto;
