@@ -76,7 +76,7 @@ h1#demo {
 	margin-left: 220px;
     
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 900px) {
     #inputYear{
         display: block;
         margin: auto;
@@ -95,7 +95,7 @@ h1#demo {
     }
     #defultText{
         margin: auto;
-        width: 300px;
+        /* width: 300px; */
         float: left;
     }
     #demo{
