@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaf year</title>
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="leaf.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <span class="headerLine">Check Leaf Year</span>
+      <div class="inputButtonWrap">
+        <input type="text" id="inputYear" oninput="oninputFunc()" value="" placeholder="enter a year (yyyy)"/>
+        <button class="btn" onclick="isLeafYear()">click it</button>
+        <div class="errWrap animate__animated animate__flash">
+          <div class="triangle-up"></div>
+          <div class="errorMsg">
+            <span>Please Enter a Year</span>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="contentWrapper">
+        <h1 id="defultText">Your Expected Year :</h1>
+        <h1 id="demo"></h1>
+      </div>
+    </div>
+
+    <!-- <h2 class="headLine">learn condition of programming to use javascript</h2> -->
+    <script src="leaf.js"></script>
+  </body>
+</html>

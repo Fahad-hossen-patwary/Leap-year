@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    background: red;
+    width: 500px;
+    padding: 20px;
+    justify-content: center;
+    margin: auto;
+}
+
+.contentWrapper {
+    display: flex;
+    margin: auto;
+    font-size: 16px;
+}
+.inputButtonWrap{
+    margin-left: 30px;
+}
+
+input#inputYear {
+    font-size: 23px;
+    padding: 5px;
+    border-radius: 5%;
+    border: 2px solid green;
+    outline: none;
+    /* margin-left: 32px; */
+}
+span.headerLine {
+    color: #00fdce;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 123px;
+}
+button.btn {
+    font-size: 23px;
+    padding: 5px;
+    border-radius: 5%;
+    border: 2px solid green;
+    outline: none;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .2s;
+}
+button.btn:hover{
+    background-color: green;
+}
+h1#demo {
+    /* margin-left: 5px; */
+    color: #00fdce;
+    text-shadow: 4px 4px #0e580e;
+}
+
+.errorMsg {
+    width: 200px;
+    border: 2px solid green;
+    background: orange;
+    margin-left: 30px;
+    padding: 2px;
+    
+}
+.errWrap{
+    display: none;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 8px solid #ff070700;
+	border-right: 8px solid transparent;
+	border-bottom: 10px solid orange;
+	margin-left: 220px;
+    
+}
+@media screen and (max-width: 900px) {
+    #inputYear{
+        display: block;
+        margin: auto;
+    }
+    .btn{
+        margin: auto;
+        display: block;
+        margin-top: 22px;
+    }
+    .contentWrapper{
+        display: block;
+        margin-top: 40px;
+        margin-left: 39px;
+    }
+    #defultText{
+        margin: auto;
+        width: 300px;
+    }
+    #demo{
+        margin:auto;
+        width: 200px;
+    }
+    .errWrap{
+        margin-top: -66px;
+        margin-left: 58px;
+    }
+}
